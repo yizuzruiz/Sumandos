@@ -20,7 +20,6 @@ class Sumandos{
 		}else{
 		
 			if( (abs($curTotal - $curObjetivo) < abs($curObjetivo - $curMejor)) ){
-            			$n;
             			$curMejor = $curTotal;
             		
 				if( $curMejor == $curObjetivo ){
